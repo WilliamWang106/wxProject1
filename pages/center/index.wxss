@@ -1,0 +1,26 @@
+/* pages/center/index.wxss */
+form{
+  display: block;
+  box-sizing: border-box;
+  padding: 10px;
+}
+.item{
+  display: flex;
+  border-bottom: 1px solid #ccc;
+  height: 48px;
+  line-height: 48px;
+}
+.item label{
+  width: 70px;
+  text-align: right;
+  margin-right: 5px;
+  font-size: 14px;
+}
+.item input{
+  /* border: 1px solid pink; */
+  flex: 1;
+  color: #3c3c3c;
+  height: 48px;
+  line-height: 48px;
+
+}
